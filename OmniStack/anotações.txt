@@ -1,0 +1,29 @@
+/*
+Métodos http:
+
+GET: Buscar/listar informação no back-end
+POST: Criar uma informmação no back-end
+PUT: Alterar uma informação do back-end 
+DELETE: Deletar do back-end
+*/
+
+
+/*
+Tipos de parametros
+
+Query params: parametros nomeados enviadfos na rota após o simbolode "?" (filtos, paginação)
+Rote params: parametros utilizados para indentificar recursos
+Request Body: corpo da requisição, utilizado para criar ou alterar recursos
+*/
+
+/*
+SQL: MySQL, SQLite, PostgreSQL, Oracle, MicrosoftSQL server
+NoSQL:  mongoDB, etc.
+*/
+
+/*
+PARA FAZER A COMUNICAÇÃO COM O BANCO DE DADOS
+
+Instalando Drivers: SELECT * FROM users
+Query Builder: Table('users'),select('*').where()
+*/
